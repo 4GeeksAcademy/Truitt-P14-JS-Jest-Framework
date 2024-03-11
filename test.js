@@ -23,7 +23,7 @@ test("One yen should be 0.87 pounds", function() {
 
     const expected = 156.5 * 0.87;
 
-    expect(fromYenToPound(156.5).toBe(136.15)
+    expect(fromYenToPound(156.5)).toBe(136.155)
 })
 
 test("One dollar should be 156.5 yen", function() {

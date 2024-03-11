@@ -3,8 +3,8 @@ const fromYenToPound = function(valueInYen) {
     return valueInPound;
 }
 
-const fromdollarToYen = function(valueInDollar) {
-    let valueInYen = valueInEuro * 156.5;
+const fromDollarToYen = function(valueInDollar) {
+    let valueInYen = valueInDollar * 156.5;
     return valueInYen;
 }
 
@@ -16,7 +16,7 @@ const fromEuroToDollar = function(valueInEuro) {
 }
 
 const sum = (a,b) => {
-    return a + b
+    return a + b;
 }
 
 console.log(sum(7,3))
